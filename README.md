@@ -9,4 +9,4 @@ Sucheta Sudhakumari: Deciding and providing the description for the domain model
 
 Raghav Verma: Creating context of use case using the information about the TVM and its environment. 
 
-Chao Ye: Contructing UML to express the positive and negative usecases.
+Chao Ye: Contructing UML model (including one use case diagram and one sequence diagram), generate positive scenarios using activity diagram.
