@@ -1,0 +1,63 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[left=0.75in,right=0.75in,top=1.5in,bottom=1.5in,footskip=.25in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[toc,automake,acronym,section]{glossaries}
+
+%---------------------------------------------------------------------------------------
+%  GLOSSORY
+%---------------------------------------------------------------------------------------
+
+\newglossaryentry{igo}
+{
+	name=iGo,
+	description={The online Ticket Vending Machine integrated with STM system}
+}
+\newglossaryentry{membership_card}
+{
+	name=Membership Card,
+	description={ A membership card for STM users ,convenient for daily commuters which can be recharged on monthly , weekly basis according to the card type }
+}
+\newglossaryentry{transaction}
+{
+	name=Transaction,
+	description={A user's interaction with the machine to buy a rechargeable/non rechargeable ticket depending on the type selected}
+}
+\newglossaryentry{session}
+{
+	name=Session,
+	description={The time allotted for each user transaction , represented by an active session}
+}
+\newglossaryentry{UCMiGo}
+{
+	name=UCMiGo,
+	description={The Use case Model for user's interaction with iGo}
+}
+\newglossaryentry{TVM}
+{
+	name=TVM,
+	description={Ticket Vending Machine}
+}
+\newglossaryentry{STM}
+{
+	name=STM,
+	description={Société de transport de Montréal}
+}
+
+
+
+\makeglossary
+
+\begin{document}
+	
+
+\gls{igo}\\
+\gls{membership_card}\\
+\gls{transaction}\\
+\gls{session}	\\
+\gls{UCMiGo}	\\
+\gls{TVM}	\\
+\gls{STM}	\\
+	
+\printglossaries
+	
+\end{document}
